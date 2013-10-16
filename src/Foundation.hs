@@ -14,3 +14,4 @@ instance RenderMessage App FormMessage where
     renderMessage _ _ = defaultFormMessage
 
 mkYesodData "App" $(parseRoutesFile "config/routes")
+
